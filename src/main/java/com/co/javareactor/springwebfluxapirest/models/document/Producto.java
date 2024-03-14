@@ -17,9 +17,7 @@ import java.util.Date;
 public class Producto {
 
     @Id
-    @NotEmpty
     private String id;
-
     @NotEmpty
     private String nombre;
     @NotNull
